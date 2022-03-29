@@ -75,7 +75,7 @@ Use <code>disable</code> instead of <code>enable</code> to undo this operation.
 
 <pre class="code">apt-get install kiwix-tools
 wget some.zim
-kiwix-serve --port=1024 some.zim
+kiwix-serve -p 1024 ./Shared/*.zim
 </pre>
 
 # To do
