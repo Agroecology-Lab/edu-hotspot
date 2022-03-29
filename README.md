@@ -22,14 +22,14 @@ sudo systemctl disable hostapd</pre>
 <p>
 Get the piratebox code:
 </p>
-<pre class="code">wget  http://downloads.piratebox.de/piratebox-ws_current.tar.gz
-tar xf piratebox-ws_current.tar.gz
+<pre class="code">wget  https://github.com/Agroecology-Lab/edu-hotspot/archive/refs/heads/master.zip
+unzip master.zip
 cd piratebox
 sudo cp -rv piratebox /opt
 sudo ln -s /opt/piratebox/init.d/piratebox /etc/init.d/</pre>
 
 <p>
-All the files shared by this piratebox will be stored in <code>/opt/piratebox/share</code>.
+All the files shared by this server will be stored in <code>/opt/piratebox/share</code>.
 </p>
 
 <p>
@@ -49,17 +49,17 @@ To activate the board, run the following command:
 <pre class="code">sudo /opt/piratebox/bin/board-autoconf.sh</pre>
 
 <p>
-Everything is now ready. It is possible to start your PirateBox:
+Everything is now ready. It is possible to start your server:
 </p>
 <pre class="code">sudo /etc/init.d/piratebox start</pre>
 
 <p>
-Obviously the PirateBox can be turned off in this way:
+Obviously the server can be turned off in this way:
 </p>
 <pre class="code">sudo /etc/init.d/piratebox stop</pre>
 
 <p>
-Systemd can be instructed to start PirateBox at boot time:
+Systemd can be instructed to start the server at boot time:
 </p>
 <pre class="code">sudo systemctl enable piratebox</pre>
 
