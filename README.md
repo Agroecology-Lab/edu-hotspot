@@ -79,6 +79,9 @@ Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for
 
 Find/ design an open hardware LoRa shield
 
+#Notes
+u:rosetta
+p:eduhotspot
 # PirateBox   
 
 This was forked from the now discontinued [Piratebox_webserver](https://github.com/PierreMartin/PirateBoxScripts_Webserver)
