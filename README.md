@@ -2,7 +2,7 @@
 
 Serve https://rosettaphone.org files 
 
-Using a [Orange Pi Zero 1](https://s.click.aliexpress.com/e/_AkhAQ5)
+Using a [Orange Pi Zero 1](https://s.click.aliexpress.com/e/_9iQsGD) 
 
 Install [Armbian for Orange Pi Zero](https://www.armbian.com/orange-pi-zero/)
 <pre class="code">
