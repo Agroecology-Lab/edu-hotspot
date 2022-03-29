@@ -27,6 +27,7 @@ Get the server code:
 </p>
 <pre class="code">wget  https://github.com/Agroecology-Lab/edu-hotspot/archive/refs/heads/master.zip
 unzip master.zip
+cd edu-hotspot-master
 cd piratebox
 sudo cp -rv piratebox /opt
 sudo ln -s /opt/piratebox/init.d/piratebox /etc/init.d/</pre>
