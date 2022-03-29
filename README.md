@@ -73,8 +73,12 @@ Use <code>disable</code> instead of <code>enable</code> to undo this operation.
 
 </div>
 
+<pre class="code">apt-get install kiwix-tools
+wget some.zim
+kiwix-serve --port=1024 some.zim
+</pre>
+
 # To do
-Install [Kiwix-serve](https://www.kiwix.org/en/downloads/kiwix-serve/)
 
 Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
 
