@@ -4,10 +4,13 @@ Serve https://rosettaphone.org files
 
 Using a [Orange Pi Zero 1](https://s.click.aliexpress.com/e/_AkhAQ5)
 
-1) Install Armbian
-2) ssh root@your_ip
-3) sudo apt-get install php-cgi iw perl lighttpd dnsmasq hostapd python zip avahi-daemon hostapd libcgi-pm-perl
-
+Install [Armbian for Orange Pi Zero](https://www.armbian.com/orange-pi-zero/)
+<pre class="code">
+ssh root@your_ip
+</pre>
+<pre class="code">
+sudo apt-get install php-cgi iw perl lighttpd dnsmasq hostapd python zip avahi-daemon hostapd libcgi-pm-perl
+</pre>
 
 <p>
 Prevent the daemons from automatic loading.
@@ -71,7 +74,9 @@ Use <code>disable</code> instead of <code>enable</code> to undo this operation.
 
 # To do
 Install [Kiwix-serve](https://www.kiwix.org/en/downloads/kiwix-serve/)
+
 Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
+
 Find/ design an open hardware LoRa shield
 
 # PirateBox   
