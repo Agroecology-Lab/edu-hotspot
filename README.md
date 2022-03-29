@@ -20,7 +20,7 @@ sudo systemctl stop hostapd
 sudo systemctl disable hostapd</pre>
 
 <p>
-Get the piratebox code:
+Get the server code:
 </p>
 <pre class="code">wget  https://github.com/Agroecology-Lab/edu-hotspot/archive/refs/heads/master.zip
 unzip master.zip
