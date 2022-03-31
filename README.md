@@ -82,6 +82,8 @@ kiwix-serve -p 1024 ./Shared/*.zim
 
 Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
 
+[SSB-viewer](https://git.scuttlebot.io/%25MeCTQrz9uszf9EZoTnKCeFeIedhnKWuB3JHW2l1g9NA%3D.sha256)
+
 Find/ design an open hardware LoRa shield
 
 #Notes
