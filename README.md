@@ -80,10 +80,12 @@ kiwix-serve -p 1024 ./Shared/*.zim
 
 # To do
 https://www.atechtown.com/install-nvm-debian-11/
+npm config set user 0
+npm config set unsafe-perm true
 https://github.com/SSBC/ssb-server
 https://github.com/hackergrrl/git-ssb-intro
 
-Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
+Install a [SSB-browser?](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
 
 [SSB-viewer](https://git.scuttlebot.io/%25MeCTQrz9uszf9EZoTnKCeFeIedhnKWuB3JHW2l1g9NA%3D.sha256)
 
