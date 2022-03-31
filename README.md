@@ -79,6 +79,9 @@ kiwix-serve -p 1024 ./Shared/*.zim
 </pre>
 
 # To do
+https://www.atechtown.com/install-nvm-debian-11/
+https://github.com/SSBC/ssb-server
+https://github.com/hackergrrl/git-ssb-intro
 
 Install a [SSB-Pub](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
 
