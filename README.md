@@ -82,33 +82,21 @@ kiwix-serve -p 1024 ./Shared/*.zim
 https://www.atechtown.com/install-nvm-debian-11/
 
 Following this guide https://github.com/SSBC/ssb-server
-```
 
-root@orangepizero:~# npm config set user 0
-root@orangepizero:~# npm config set unsafe-perm true
-root@orangepizero:~# sh ~/run-server.sh
-ssb-server 15.3.0 /root/.ssb logging.level:notice
-my key ID: lY3Smp2YlOIC8gbtYnBFGLwYAJDn75q3BtsBbDLAhgk=.ed25519
+<pre class="code">
 
-/root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119
-      return callback(new OpenError(err))
-                      ^
-OpenError: IO error: lock /root/.ssb/blobs_push/LOCK: Resource temporarily unavailable
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119:23
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/deferred-leveldown.js:31:21
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/encoding-down/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
-Emitted 'error' event at:
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:60:19
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119:14
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
-    [... lines matching original stack trace ...]
-    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
-ssb-server 15.3.0 /root/.ssb logging.level:notice
-my key ID: lY3Smp2YlOIC8gbtYnBFGLwYAJDn75q3BtsBbDLAhgk=.ed25519
-```
-Trying https://github.com/nodejs/help/issues/3644#issuecomment-991971902
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</pre>
+
+Because [this](https://github.com/ssbc/ssb-server/issues/763)
+
+Reboot
+
+Current problem: Piratebox startup script now fails on Setting up firewall rules...:
+
+
+
 
 https://github.com/hackergrrl/git-ssb-intro
 
