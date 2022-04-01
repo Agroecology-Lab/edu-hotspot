@@ -82,6 +82,7 @@ kiwix-serve -p 1024 ./Shared/*.zim
 https://www.atechtown.com/install-nvm-debian-11/
 
 Following this guide https://github.com/SSBC/ssb-server
+```
 
 root@orangepizero:~# npm config set user 0
 root@orangepizero:~# npm config set unsafe-perm true
@@ -106,7 +107,7 @@ Emitted 'error' event at:
     at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
 ssb-server 15.3.0 /root/.ssb logging.level:notice
 my key ID: lY3Smp2YlOIC8gbtYnBFGLwYAJDn75q3BtsBbDLAhgk=.ed25519
-^C
+```
 
 
 https://github.com/hackergrrl/git-ssb-intro
