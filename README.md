@@ -78,11 +78,37 @@ wget some.zim
 kiwix-serve -p 1024 ./Shared/*.zim
 </pre>
 
-# To do
+# In progress
 https://www.atechtown.com/install-nvm-debian-11/
-npm config set user 0
-npm config set unsafe-perm true
-https://github.com/SSBC/ssb-server
+
+Following this guide https://github.com/SSBC/ssb-server
+
+root@orangepizero:~# npm config set user 0
+root@orangepizero:~# npm config set unsafe-perm true
+root@orangepizero:~# sh ~/run-server.sh
+ssb-server 15.3.0 /root/.ssb logging.level:notice
+my key ID: lY3Smp2YlOIC8gbtYnBFGLwYAJDn75q3BtsBbDLAhgk=.ed25519
+
+/root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119
+      return callback(new OpenError(err))
+                      ^
+OpenError: IO error: lock /root/.ssb/blobs_push/LOCK: Resource temporarily unavailable
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119:23
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/deferred-leveldown.js:31:21
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/encoding-down/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
+Emitted 'error' event at:
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:60:19
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/levelup/lib/levelup.js:119:14
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/deferred-leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
+    [... lines matching original stack trace ...]
+    at /root/.nvm/versions/node/v10.24.1/lib/node_modules/ssb-server/node_modules/leveldown/node_modules/abstract-leveldown/abstract-leveldown.js:38:14
+ssb-server 15.3.0 /root/.ssb logging.level:notice
+my key ID: lY3Smp2YlOIC8gbtYnBFGLwYAJDn75q3BtsBbDLAhgk=.ed25519
+^C
+
+
 https://github.com/hackergrrl/git-ssb-intro
 
 Install a [SSB-browser?](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
@@ -92,8 +118,11 @@ Install a [SSB-browser?](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pu
 Find/ design an open hardware LoRa shield
 
 #Notes
+
 u:rosetta
+
 p:eduhotspot
+
 # PirateBox   
 
 This was forked from the now discontinued [Piratebox_webserver](https://github.com/PierreMartin/PirateBoxScripts_Webserver)
