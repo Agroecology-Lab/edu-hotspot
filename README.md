@@ -112,6 +112,14 @@ u:rosetta
 
 p:eduhotspot
 
+#IIAB test
+As above except
+
+curl d.iiab.io/install.txt | sudo bash
+
+Selected small
+Edited file, selected captive portal & kolibri & SSID otherwise unchanged.
+
 # PirateBox   
 
 This was forked from the now discontinued [Piratebox_webserver](https://github.com/PierreMartin/PirateBoxScripts_Webserver)
