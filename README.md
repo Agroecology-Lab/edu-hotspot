@@ -112,13 +112,21 @@ u:rosetta
 
 p:eduhotspot
 
-#IIAB test
+#OpenNDS
+https://opennds.readthedocs.io/en/stable/install.html
+
+#IIAB test (failed)
 As above except
 
 curl d.iiab.io/install.txt | sudo bash
 
-Selected small
-Edited file, selected captive portal & kolibri & SSID otherwise unchanged.
+Failed to bring up wifi, can't be bothered to dig into Ansible
+
+
+#sd
+blue- Armbian
+sticker- Armbian & Piratebox as above
+
 
 # PirateBox   
 
