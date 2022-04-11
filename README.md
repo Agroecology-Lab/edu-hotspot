@@ -2,7 +2,9 @@
 
 Serve https://rosettaphone.org files 
 
-Using a [Orange Pi Zero 1](https://s.click.aliexpress.com/e/_9iQsGD) 
+Testing on [Orange Pi Zero 1](https://s.click.aliexpress.com/e/_9iQsGD) 
+
+(Eventual device may be [Olimex A64](https://www.olimex.com/Products/OLinuXino/A64/A64-OLinuXino/open-source-hardware)
 
 Install [Armbian for Orange Pi Zero](https://www.armbian.com/orange-pi-zero/)
 <pre class="code">
@@ -93,39 +95,42 @@ Because [this](https://github.com/ssbc/ssb-server/issues/763)
 
 Reboot
 
-Current problem: Piratebox startup script now fails on Setting up firewall rules...:
+SSB-server now running
+
+# Current to-do: 
+install https://www.npmjs.com/package/ssb-promiscuous
 
 
+# Todo loRa interface?
+Open hardware [Lora hat]( https://github.com/reganhimself/LoRa-Hab-Hat)
+
+Just re-use [LoRaLayer2](https://github.com/sudomesh/LoRaLayer2) Wld be trivial to add ESP32 repeaters then.
+
+Is [Reticulum](https://unsigned.io/private-messaging-over-lora/) over complicated?
 
 
-https://github.com/hackergrrl/git-ssb-intro
+# Todo Wifi mesh?
 
-Install a [SSB-browser?](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
+Some kinda wifi mesh on a second wifi interface? Maybe [Qaul.net]
 
-[SSB-viewer](https://git.scuttlebot.io/%25MeCTQrz9uszf9EZoTnKCeFeIedhnKWuB3JHW2l1g9NA%3D.sha256)
 
-Find/ design an open hardware LoRa shield
-
-#Notes
+# Notes
 
 u:rosetta
 
 p:eduhotspot
 
-#OpenNDS
-https://opennds.readthedocs.io/en/stable/install.html
+Install a [SSB-browser?](https://people.iola.dk/arj/2020/03/04/how-to-setup-a-pub-for-ssb-browser/)
 
-#IIAB test (failed)
+[SSB-viewer](https://git.scuttlebot.io/%25MeCTQrz9uszf9EZoTnKCeFeIedhnKWuB3JHW2l1g9NA%3D.sha256)
+
+
+# IIAB test (failed)
 As above except
 
 curl d.iiab.io/install.txt | sudo bash
 
 Failed to bring up wifi, can't be bothered to dig into Ansible
-
-
-#sd
-blue- Armbian
-sticker- Armbian & Piratebox as above
 
 
 # PirateBox   
